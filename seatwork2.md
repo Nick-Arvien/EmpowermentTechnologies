@@ -21,7 +21,13 @@ NOTE: You can work by directly editing the HTML and CSS file from Github.com. Ho
 
 This will let you open the HTML code in your browser as a web page, and not just as HTML code. For instructions on how to do this, see https://github.com/JBRC-ph/EmpowermentTechnologies/blob/master/github-pages-howto.md#5-enable-github-pages-for-the-project (skip to Step 5).
 
-### Step 3. Work on Exercise 1.
+### Step 3. Test your workflow
+
+Open your project. Make some changes in index.html. Reload the page in your browser, and verify that the change you made is reflected. 
+
+This test ensures that the file you're editing is the same one you're testing :)
+
+### Step 4. Work on Exercise 1.
 
 On this step you will implement this layout:
 
@@ -29,13 +35,19 @@ On this step you will implement this layout:
 
 Follow these sub-steps for this exercise.
 
-### Step 4. Work on Exercise 2.
+### Step 5. Work on Exercise 2.
 
 On this step you will implement this layout:
 
 ![3-column-layout](https://github.com/JBRC-ph/EmpowermentTechnologies/blob/master/images/Body-3columns.png)
 
 Follow these sub-steps for this exercise.
+
+### Step 6. Work on Exercise 3.
+
+On this step you will implement this layout:
+
+![3-column-layout](https://github.com/JBRC-ph/EmpowermentTechnologies/blob/master/images/Combination.png)
 
 ### Step 11. Upload to Github.
 
