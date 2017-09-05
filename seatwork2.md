@@ -33,7 +33,17 @@ On this step you will implement this layout:
 
 ![3-section-layout](https://github.com/JBRC-ph/EmpowermentTechnologies/blob/master/images/Body-3sections.png)
 
-Follow these sub-steps for this exercise.
+Follow these sub-steps for this exercise:
+
+- Create a new file, `exercise1.html`, and copy the contents of `index.html` into it
+- Open `exercise1.html` on your browser. Notice that the sections are already stacked on top of each other. HTML elements are stacked on top of each other by default.
+- But just to be sure and to make the sections more visible, let's give them a background color. Add this to `style.css` and reload `exercise1.html` on the browser:
+
+```
+section.row {
+    background-color: yellow;
+}
+```
 
 ### Step 5. Work on Exercise 2.
 
@@ -41,7 +51,18 @@ On this step you will implement this layout:
 
 ![3-column-layout](https://github.com/JBRC-ph/EmpowermentTechnologies/blob/master/images/Body-3columns.png)
 
-Follow these sub-steps for this exercise.
+Follow these sub-steps for this exercise:
+
+- Create a new file, `exercise2.html`, and copy the contents of `index.html` into it
+- Edit `index.html` and change the class of the section tags. Change the sections `<section class="row">` to `<section class="col">`
+- Edit `style.css` and add a style for the columns:
+
+```
+section.col {
+    width: 33%;
+    float: left;
+}
+```
 
 ### Step 6. Work on Exercise 3.
 
@@ -49,21 +70,17 @@ On this step you will implement this layout:
 
 ![3-column-layout](https://github.com/JBRC-ph/EmpowermentTechnologies/blob/master/images/Combination.png)
 
-### Step 11. Upload to Github.
+Work on this as a homework. Please write the code for exercise3.html and style.css on a piece of bond paper and submit next week, September 12.
 
-If you worked locally, upload your work to Github and view your work in https://yourusername.github.io/css-seatwork-1/index.html
+### Step 7. Upload to Github.
+
+If you worked locally, upload your work to Github. You can view your work in https://yourusername.github.io/css-seatwork-2. Replace `yourusername` with your actual Github username.
+
+- https://yourusername.github.io/css-seatwork-2/exercise1.html
+- https://yourusername.github.io/css-seatwork-2/exercise2.html
+- https://yourusername.github.io/css-seatwork-2/exercise3.html
 
 Write your reflection.
 
 Congratulations, you're done!
-
-Further study: Read about the CSS properties you used today (e.g. Google "css float mdn" or "css float w3schools"):
-  - margin
-  - padding
-  - list-style-none
-  - float
-  - display
-  - text-decoration
-  - background-color
-  - hover
 
